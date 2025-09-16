@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "api/chat-proxy.js", "use": "@vercel/node" }
-  ],
   "routes": [
     { "src": "/chat-proxy", "dest": "/api/chat-proxy.js" }
   ]
