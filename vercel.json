@@ -1,6 +1,3 @@
 {
-  "version": 2,
-  "routes": [
-    { "src": "/chat-proxy", "dest": "/api/chat-proxy.js" }
-  ]
+  "version": 2
 }
